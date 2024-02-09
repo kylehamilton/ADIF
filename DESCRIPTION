@@ -2,10 +2,16 @@ Package: ADIF
 Type: Package
 Title: Read Amateur Data Interchange Format Data
 Version: 1.0
-Date: 2024-02-07
-Authors@R: person("W. Kyle", "Hamilton", email = "kyle.hamilton@gmail.com", role = c("aut", "cre"))
-Description: Reads data in the Amateur Data Interchange Format (ADIF). 
+Date: 2024-02-09
+Authors@R: person(given = "W. Kyle", family="Hamilton",
+  role = c("aut", "cre"), email = "kyle.hamilton@gmail.com",
+  comment = c(ORCID = "0000-0002-8642-7990"))
+Description: Enables users to import log files formatted in the Amateur Data Interchange Format (ADIF), a standardized data structure widely adopted within the amateur radio community for archiving and exchanging QSO (contact) logs. ADIF is one of the main ways that amateur radio operators exchange log files, this format ensures compatibility among various logging software and systems. File standards can be found at <https://www.adif.org/>.
 License: GPL (>= 3)
+URL: https://github.com/kylehamilton/ADIF
+BugReports: https://github.com/kylehamilton/ADIF/issues
+Depends:
+    R (>= 4.3.0)
 Encoding: UTF-8
-LazyData: true
+LazyData: TRUE
 RoxygenNote: 7.2.3

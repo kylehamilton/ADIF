@@ -7,9 +7,10 @@
 #' @return A dataframe where each row represents a record from the ADIF file. Columns correspond to tags found in the ADIF records, with column names matching tag names.
 #'
 #' @examples
-#' \dontrun{
-#' df <- readADIF("example.adif")
-#' }
+#'
+#' df <- readADIF(system.file("extdata", "KG6BXW.adif", package="ADIF"))
+#' head(df)
+#'
 #' @importFrom utils strcapture
 #' @export
 

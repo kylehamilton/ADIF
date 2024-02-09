@@ -16,7 +16,8 @@ A dataframe where each row represents a record from the ADIF file. Columns corre
 Reads an Amateur Data Interchange Format (ADIF) file and converts it into a dataframe. Each record in the ADIF file is transformed into a row in the dataframe.
 }
 \examples{
-\dontrun{
-df <- readADIF("example.adif")
-}
+
+df <- readADIF(system.file("extdata", "KG6BXW.adif", package="ADIF"))
+head(df)
+
 }
